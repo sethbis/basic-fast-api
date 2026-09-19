@@ -4,7 +4,7 @@ Esta es una API sencilla desarrollada con **FastAPI** y **SQLModel** (SQLite) qu
 
 ---
 
-## 📁 Estructura del Proyecto
+##  Estructura del Proyecto
 
 ```text
 Fastapi on EC2/
@@ -17,7 +17,7 @@ Fastapi on EC2/
 
 ---
 
-## 🚀 1. Ejecución en Local
+##  1. Ejecución en Local
 
 ### Paso 1.1: Crear y activar entorno virtual
 En Windows (PowerShell):
@@ -49,7 +49,7 @@ Abre en tu navegador:
 
 ---
 
-## 📤 2. Subir el Proyecto a GitHub / GitLab
+## 2. Subir el Proyecto a GitHub / GitLab
 
 Desde la carpeta del proyecto en tu terminal:
 
@@ -64,7 +64,7 @@ git push -u origin main
 
 ---
 
-## ☁️ 3. Despliegue en AWS EC2
+## 3. Despliegue en AWS EC2
 
 ### Paso 3.1: Crear la Instancia EC2
 1. Ve a la consola de AWS -> **EC2** -> **Lanzar instancia**.
@@ -128,7 +128,7 @@ pm2 startup
 
 ---
 
-## 🌐 4. Probar la API en Producción
+## 4. Probar la API en Producción
 
 Accede desde cualquier navegador a la IP pública de tu instancia EC2:
 
@@ -139,7 +139,7 @@ Accede desde cualquier navegador a la IP pública de tu instancia EC2:
 
 ---
 
-## 📋 5. Endpoints Disponibles
+## 5. Endpoints Disponibles
 
 ### Usuarios:
 | Método | Endpoint | Descripción |
